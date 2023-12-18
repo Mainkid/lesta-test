@@ -40,7 +40,6 @@ void WorkerThread(void)
 
 		if (delta > 0)
 		{
-			// some code
 			clickMutex.lock();
 			particleSystem->particlesEmit();
 			clickMutex.unlock();
@@ -86,10 +85,10 @@ void test::render(void)
 
 	std::lock_guard<std::mutex> renderGuard(renderMutex);
 
-	for (size_t index = 0; index < renderBuffer->size; ++index)
+	for (size_t i = 0; i < renderBuffer->size; ++i)
 	{
-		Vector2& position = renderBuffer->position[index];
-		Color& color = renderBuffer->color[index];
+		Vector2& position = renderBuffer->position[i];
+		Color& color = renderBuffer->color[i];
 
 		platform::drawPoint(position.x, position.y,
 			color.r(), color.g(), color.b(), color.a());

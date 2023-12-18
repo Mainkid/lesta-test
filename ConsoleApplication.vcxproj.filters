@@ -8,6 +8,9 @@
     <Filter Include="glut">
       <UniqueIdentifier>{465be19b-57a5-4671-b8bb-49d57dd881fb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d6f6d5fd-7a0f-403b-adb3-0a4b52f219cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -102,7 +105,11 @@
     <ClInclude Include="test.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Particle.h" />
-    <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
