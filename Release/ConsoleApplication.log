@@ -1,5 +1,0 @@
-﻿  test.cpp
-C:\Users\jdczy\Desktop\lesta-test\source\ParticleSystem.h(87,15): error C2248: Color::value: невозможно обратиться к private член, объявленному в классе "Color"
-C:\Users\jdczy\Desktop\lesta-test\source\Particle.h(54,11): message : см. объявление "Color::value"
-C:\Users\jdczy\Desktop\lesta-test\source\Particle.h(48,8): message : см. объявление "Color"
-C:\Users\jdczy\Desktop\lesta-test\source\test.cpp(66,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
