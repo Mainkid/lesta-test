@@ -1,0 +1,6 @@
+﻿  test.cpp
+C:\Users\jdczy\Desktop\lesta-test\source\test.cpp(126,13): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\jdczy\Desktop\lesta-test\source\test.cpp(228,11): warning C4101: elapsed_time: неиспользованная локальная переменная
+C:\Users\jdczy\Desktop\lesta-test\source\test.cpp(269,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\jdczy\Desktop\lesta-test\source\test.cpp(302,9): warning C4101: elapsed_time: неиспользованная локальная переменная
+  ConsoleApplication.vcxproj -> C:\Users\jdczy\Desktop\lesta-test\source\Debug\ConsoleApplication.exe
